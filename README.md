@@ -2,6 +2,7 @@
 [![RStudio][rstudio-badge]][rstudio-url]
 [![R][r-badge]][r-url]
 [![LinkedIn][linkedin-badge]][linkedin-url]
+[![MIT][mit-badge]][mit-url]
 
 ## About
 
@@ -58,6 +59,10 @@ df <- df %>%
   mutate(Barrel = is_barrel(ExitSpeed, Angle))
 ```
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
 <!-- link definitions -->
 [rstudio-badge]: https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white
 [rstudio-url]: https://posit.co/downloads
@@ -66,3 +71,5 @@ df <- df %>%
 [linkedin-badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/kylegilbertpsu/
 [mlb-url]: https://www.mlb.com/glossary/statcast/barrel
+[mit-badge]: https://img.shields.io/badge/MIT-green?style=for-the-badge
+[mit-url]: https://opensource.org/licenses/MIT
